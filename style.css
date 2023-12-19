@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 40px;
+    text-shadow: 3px 2px black;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgba(255, 240, 230, 0.356);
+}
+
+header{
+    background-color: rgb(230, 218, 208);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(73, 73, 255);
+    height: 80px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(25px);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(73, 73, 255);
+    padding: 5px;
+    color: rgb(230, 218, 208);
+}
+
+a:hover{
+    background-color: blue;
+    letter-spacing: 2px;
+    transition: .7s;
+    box-shadow: 2px 3px black;
+}
+
+h2{
+    padding: 10px;
+    margin: 5%;
+}
+
+table{
+    font-size: 20px;
+    position: relative;
+    left: 32%;
+    color:azure;
+    background-color: rgb(139, 139, 230);
+}
+
+thead{
+    color: rgb(34, 34, 255);
+}
+
+td{
+    padding: 5px;
+}
+
+footer{
+    background-color: rgb(230, 218, 208);
+    color: rgb(115, 115, 255);
+    height: 70px;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 20px;
+}
